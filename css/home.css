@@ -63,7 +63,8 @@ section#header {
 
 /* =================CREATOR================ */
 section#creator {
-    background: var(--color-purple);
+    background: var(--color-orange);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 .title{
     display: grid;
@@ -158,7 +159,8 @@ section#creator {
 
 /* =================NEWS================ */
 section#news {
-    background: var(--color-palletblue);
+    background: var(--color-green);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 .news__list {
     display: grid;

@@ -2,3 +2,16 @@ footer {
     background: var(--color-background);
     padding: 4rem 0;
 }
+.footer__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.footer__content {
+}
+.footer__content h4 {
+    color: var(--color-white);
+    font-weight: 700;
+}
+.footer__social {
+
+}
