@@ -37,7 +37,7 @@ section#header {
     z-index: 2;
 }
 .swiper-text h1 {
-    color: var(--color-red);
+    color: var(--color-pink);
     font-weight: 900;
     margin-top: 0.2rem;
 }
@@ -165,7 +165,7 @@ section#news {
 .news__list {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+    gap: 3.2rem;
     margin-top: 6rem;
 }
 .news__list article {
