@@ -13,6 +13,7 @@
     --color-purple: #7067ED;
     --color-skyblue: #39ABD0;
     --color-palletblue : #4A6CFF;
+    --color-youtubeRed : #FF0000;
 
     --color-background: #2A272A;
 
@@ -199,7 +200,7 @@ section {
         font-size: 1.5rem;
     }
     h5 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -223,13 +224,13 @@ section {
     }
 
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     h4 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     h5 {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
 }
