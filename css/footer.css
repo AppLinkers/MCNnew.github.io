@@ -38,3 +38,10 @@ footer {
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 850px) {
+    .footer__link {
+        display: none;
+    }
+}

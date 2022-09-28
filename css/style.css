@@ -149,12 +149,13 @@ img {
 }
 
 .btn-input {
-    padding: 1.2rem 1rem;
+    padding: 1.8rem 1.2rem;
     background: var(--color-white);
     color: var(--color-dark);
     border: solid 1px var(--color-gray);
     box-shadow: none;
     cursor: text;
+    font-size: 1.2rem;
 }
 .btn-input:hover{
     border: solid 1px var(--color-black);
