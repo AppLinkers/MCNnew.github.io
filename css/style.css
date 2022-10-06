@@ -12,8 +12,8 @@
     --color-pink: #D83D8A;
     --color-purple: #7067ED;
     --color-skyblue: #39ABD0;
-    --color-palletblue : #4A6CFF;
-    --color-youtubeRed : #FF0000;
+    --color-palletblue: #4A6CFF;
+    --color-youtubeRed: #FF0000;
 
     --color-background: #2A272A;
 
@@ -44,13 +44,17 @@ body {
     color: var(--color-black);
     line-height: 1.7;
     background: var(--color-white);
-    
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
     overflow-x: hidden;
 }
+
 body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
+    display: none;
+    /* Chrome, Safari, Opera*/
 }
 
 .container {
@@ -110,6 +114,7 @@ img {
     cursor: pointer;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
+
 .btn:hover {
     -webkit-transform: translateY(-5px);
 
@@ -127,6 +132,7 @@ img {
     box-shadow: none;
     font-weight: 700;
 }
+
 .btn-varient:hover {
     background: var(--color-white);
     border: 1px solid var(--color-white);
@@ -142,6 +148,7 @@ img {
     padding: 0.7rem 1.4rem;
     box-shadow: none;
 }
+
 .btn-black:hover {
     background: var(--color-realBlack);
     border: 1px solid var(--color-realBlack);
@@ -157,7 +164,8 @@ img {
     cursor: text;
     font-size: 1.2rem;
 }
-.btn-input:hover{
+
+.btn-input:hover {
     border: solid 1px var(--color-black);
     transform: none;
 }
@@ -182,7 +190,7 @@ section {
 /* =================MEDIA QEURIES
 (TABLETS)================ */
 @media screen and (max-width: 1024px) {
-    .container{
+    .container {
         width: var(--container-width-tablet);
     }
 
@@ -197,9 +205,11 @@ section {
     h3 {
         font-size: 1.9rem;
     }
+
     h4 {
         font-size: 1.5rem;
     }
+
     h5 {
         font-size: 1.3rem;
     }
@@ -212,7 +222,7 @@ section {
         font-size: 14px;
     }
 
-    .container{
+    .container {
         width: var(--container-width-phone);
     }
 
@@ -227,11 +237,13 @@ section {
     h3 {
         font-size: 1.6rem;
     }
+
     h4 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
+
     h5 {
-        font-size: 1.1rem;
+        font-size: 1.25rem;
     }
 
 }

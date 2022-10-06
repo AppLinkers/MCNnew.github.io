@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCN</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ICON SCOUT -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+
+</head>
+
+<body>
+    <!-- =========== NAVBAR ========== -->
+    <nav id="nav">
+    </nav>
+
+    <!-- =========== HEADER ========== -->
+    <section id="header">
+        <div class="container header__container">
+            <div class="trader__info">
+                <h2>CONSULTING</h2>
+                <h5 class="trader__name kor">크리에이터를 선택해주세요</h5>
+                <div class="trader__img">
+
+                </div>
+            </div>
+            <div class="trader__form">
+                <h1>CONSULTING</h1>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="role" class="kor">크리에이터 선택</label>
+                        <div class="select-menu">
+                            <div class="select-btn">
+                                <input id="role" class="sBtn-text" placeholder="크리에이터를 선택해주세요" readonly>
+                                <i class="uil uil-angle-down"></i>
+                            </div>
+                            <ul class="options">
+                                <li class="option"><span class="option-text kor">크리에이터1</span></li>
+                                <li class="option"><span class="option-text kor">크리에이터2</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="kor">이름</label>
+                        <input id="name" class="btn-input" type="text" required placeholder="실명을 작성해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="kor">연락처</label>
+                        <input id="phone" class="btn-input" type="tel" required placeholder="연락 가능한 전화번호를 작성해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="kor">이메일</label>
+                        <input id="email" class="btn-input" type="email" required placeholder="이메일 주소를 작성해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="content" class="kor">상담 내용</label>
+                        <textarea id="content" required placeholder="상담 내용을 작성하세요"></textarea>
+                    </div>
+                    <div class="show-select">
+                        <div class="form-group">
+                            <label class="show-label kor">공개 여부</label>
+                            <div class="show-box">
+                                <p id="show" class="kor" style="border-right: 1px solid var(--color-gray);">공개</p>
+                                <p id="non-show" class="kor">비공개</p>
+                            </div>
+                        </div>
+                        <div class="form-group show-password">
+                            <label for="password" class="show-label kor">비밀번호</label>
+                            <input id="password" class="btn-input" type="password" required placeholder="비밀번호를 설정해주세요">
+                        </div>
+                    </div>
+                    <div class="form-allow">
+                        <i class="uil uil-check"></i>
+                        <p class="kor">개인 정보 수집 및 이용약관에 동의합니다.</p>
+                    </div>
+                    <button class="btn-black consult__btn kor" type="submit">문의하기</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========== QNA ========== -->
+    <section id="qna">
+        <div class="container qna__container">
+            <div class="title">
+                <div class="title__text">
+                    <h2 class="kor">FAQs</h2>
+                </div>
+                <div class="title__line">
+                    <div></div>
+                    <div class="real__line"></div>
+                </div>
+            </div>
+            <!-- LABEL -->
+            <div class="qna__label">
+                <div class="label">
+                    <p class="kor">작성자</p>
+                </div>
+                <div class="label">
+                    <p class="kor">내용</p>
+                </div>
+                <div class="label">
+                    <p class="kor">크리에이터</p>
+                </div>
+                <div class="label">
+                    <p class="kor">답변 여부</p>
+                </div>
+            </div>
+            <!-- LIST -->
+            <article>
+                <div class="qna__label list">
+                    <div class="list__content">
+                        <p class="kor">작성자</p>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestiae esse
+                            vero aut, at ipsum.</p>
+                        <small>2022. 10. 06</small>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">크리에이터</p>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">답변 여부</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="qna__label list">
+                    <div class="list__content">
+                        <p class="kor">작성자</p>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">내용</p>
+                        <small>2022. 10. 06</small>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">크리에이터</p>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">답변 여부</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="qna__label list">
+                    <div class="list__content">
+                        <p class="kor">작성자</p>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">내용</p>
+                        <small>2022. 10. 06</small>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">크리에이터</p>
+                    </div>
+                    <div class="list__content">
+                        <p class="kor">답변 여부</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- =========== FOOTER ========== -->
+    <footer id="footer">
+    </footer>
+
+
+    <!-- =========== JAVASCRIPT ========== -->
+    <script src="../javascript/base.js"></script>
+    <script src="../javascript/input.js"></script>
+</body>
+
+</html>
