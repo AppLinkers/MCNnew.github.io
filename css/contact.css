@@ -159,7 +159,7 @@ label {
     padding: 0.5rem 1rem;
     position: relative;
     background: var(--color-white);
-    width: 50%;
+    width: 100%;
 }
 
 .select-btn {
@@ -336,12 +336,58 @@ section#qna {
     }
 }
 
-@media screen and (max-width: 700px) {}
+@media screen and (max-width: 700px) {
+    .label p {
+        font-size: 1rem;
+    }
+
+    .list__content p {
+        font-size: 0.9rem;
+    }
+}
 
 /* =================MEDIA QEURIES
 (PHONES)================ */
 @media screen and (max-width: 600px) {
     .trader__form h1 {
         margin-top: -2rem;
+    }
+
+    .show-select {
+        gap: 0.75rem;
+    }
+
+    .show-box p {
+        font-size: 0.7rem;
+    }
+
+    section#qna {
+        padding-top: 42rem;
+    }
+
+    .label p {
+        font-size: 0.85rem;
+    }
+
+    .list__content p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .show-select {
+        gap: 0.5rem;
+    }
+
+    .show-box p {
+        font-size: 0.3rem;
+    }
+
+    .label p {
+        font-size: 0.75rem;
+    }
+
+    .list__content p {
+        font-size: 0.7rem;
     }
 }
