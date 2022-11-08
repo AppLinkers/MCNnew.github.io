@@ -14,24 +14,29 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 nav h4 {
     color: var(--color-white);
     font-weight: 700;
 }
+
 nav button {
     display: none;
 }
+
 nav button i {
     color: var(--color-white);
     font-size: 1.5rem;
     cursor: pointer;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     padding: 0 20px;
     display: flex;
     font-size: 1rem;
@@ -41,10 +46,12 @@ nav ul li{
     margin-right: 50px;
     transition: var(--transition);
 }
+
 nav ul li:hover {
     color: var(--color-realBlack);
     background: var(--color-white);
 }
+
 .menu-btn i {
     font-size: 2.5rem;
 }
@@ -62,39 +69,47 @@ menu {
     opacity: 0;
     flex-direction: column;
 }
+
 menu.active {
     display: flex;
     opacity: 1;
 }
+
 .menu-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 5.5rem;
-    padding: 0 2%;
 }
-.menu-head h4{
+
+.menu-head h4 {
     color: var(--color-realBlack);
     font-weight: 700;
 }
-.menu-head i{
+
+.menu-head i {
     font-size: 2.5rem;
     cursor: pointer;
 }
+
 .menu-content {
     background: var(--color-white);
 
 }
-.menu-content .admin-btn i{
+
+.menu-content .admin-btn i {
     transition: .3s;
 }
-.menu-content .admin-btn.active i{
+
+.menu-content .admin-btn.active i {
     transform: rotate(-180deg);
 }
-.menu-content a h2{
+
+.menu-content a h2 {
     margin-top: 4rem;
     cursor: pointer;
 }
+
 .menu-content button {
     margin-top: 4rem;
     width: 100%;
@@ -108,9 +123,10 @@ menu.active {
 /* =================MEDIA QEURIES
 (TABLETS)================ */
 @media screen and (max-width: 1024px) {
-    nav ul{
+    nav ul {
         display: none;
     }
+
     nav button {
         display: block;
     }

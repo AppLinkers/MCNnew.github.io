@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- ICON SCOUT -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -19,38 +22,66 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/nav.css">
 </head>
+
 <body>
     <!-- =========== NAVBAR ========== -->
     <div class="container nav__container">
-        <a href="index.html"><h4>MCN</h4></a>
+        <a href="index.html">
+            <h4>MCN</h4>
+        </a>
         <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="brand.html"><li>Brands</li></a>
-            <a href="creator.html"><li>Creators</li></a>
-            <a href="news.html"><li>News</li></a>
-            <a href="contact.html"><li>Contact</li></a>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="brand.html">
+                <li>Brands</li>
+            </a>
+            <a href="creator.html">
+                <li>Creators</li>
+            </a>
+            <a href="news.html">
+                <li>News</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
             <button class="btn btn-varient" onclick="location.href='login.html';">Login</button>
         </ul>
-        <button class="menu-btn" id="menu-btn" onclick="document.getElementById('menu').classList.add('active')"><i class="uil uil-bars"></i></button>
+        <button class="menu-btn" id="menu-btn" onclick="document.getElementById('menu').classList.add('active')"><i
+                class="uil uil-bars"></i></button>
     </div>
     <!-- =========== MENU ========== -->
     <menu id="menu">
         <div class="container menu__container">
             <div class="menu-head">
-                <h4>MCN</h4>
-                <i class="uil uil-multiply" id="close"  onclick="document.getElementById('menu').classList.remove('active')"></i>
+                <a href="index.html">
+                    <h4>MCN</h4>
+                </a>
+                <i class="uil uil-multiply" id="close"
+                    onclick="document.getElementById('menu').classList.remove('active')"></i>
             </div>
             <div class="menu-content">
-                <a href="index.html"><h2>Home</h2></a>
-                <a href="brand.html"><h2>Brands</h2></a>
-                <a href="creator.html"><h2>Creators</h2></a>
-                <a href="news.html"><h2>News</h2></a>
-                <a href="contact.html"><h2>Contact</h2></a>
+                <a href="index.html">
+                    <h2>Home</h2>
+                </a>
+                <a href="brand.html">
+                    <h2>Brands</h2>
+                </a>
+                <a href="creator.html">
+                    <h2>Creators</h2>
+                </a>
+                <a href="news.html">
+                    <h2>News</h2>
+                </a>
+                <a href="contact.html">
+                    <h2>Contact</h2>
+                </a>
                 <button class="btn-black" onclick="location.href='login.html';">Login</button>
             </div>
         </div>
     </menu>
-    
+
 
 </body>
+
 </html>
