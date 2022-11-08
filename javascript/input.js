@@ -25,6 +25,10 @@ const non_show = document.getElementById("non-show");
 const show_password = document.querySelector(".show-password");
 const allow = document.querySelector(".form-allow");
 
+const modal = document.querySelector(".modal");
+const close_modal = document.getElementById("close-modal");
+const btn_modal = document.querySelector(".modal__btn");
+
 show.addEventListener("click", () => {
     show.classList.add("active");
     non_show.classList.remove("active");
@@ -38,5 +42,18 @@ non_show.addEventListener("click", () => {
 })
 
 allow.addEventListener("click", () => {
+    if (allow.classList.contains("active")) {
+        allow.classList.remove("active");
+    } else {
+        modal.classList.add("active");
+    }
+})
+
+close_modal.addEventListener("click", () => {
+    modal.classList.remove("active");
+})
+
+btn_modal.addEventListener("click", () => {
+    modal.classList.remove("active");
     allow.classList.toggle("active");
 })

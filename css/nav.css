@@ -134,9 +134,4 @@ menu.active {
 
 /* =================MEDIA QEURIES
 (PHONES)================ */
-@media screen and (max-width: 600px) {
-
-    .nav__container {
-        padding: 0 2%;
-    }
-}
+@media screen and (max-width: 600px) {}
